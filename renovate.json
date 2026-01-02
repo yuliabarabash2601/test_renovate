@@ -8,10 +8,6 @@
   "timezone": "Europe/Berlin",
 
   "packageRules": [
-    {
-      "matchManagers": ["poetry"],
-      "enabled": true
-    }
   ],
 
   "regexManagers": [
@@ -25,6 +21,12 @@
       "datasourceTemplate": "git-tags",
 
       "depNameTemplate": "https://github.com/yuliabarabash2601/test_sublibrary.git",
+      "labels": [
+        "dependencies",
+        "internal-lib",
+        "test-sublibrary",
+        "weekly-update"
+      ],
 
       "versioningTemplate": "semver"
     }

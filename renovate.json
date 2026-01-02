@@ -7,8 +7,7 @@
 
   "timezone": "Europe/Berlin",
 
-  "packageRules": [
-  ],
+  "enabledManagers": [],
 
   "regexManagers": [
     {

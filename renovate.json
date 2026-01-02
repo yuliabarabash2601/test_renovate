@@ -9,6 +9,20 @@
 
   "enabledManagers": [],
 
+   "packageRules": [
+    {
+      "matchDatasources": ["git-tags"],
+      "matchPackageNames": ["https://github.com/yuliabarabash2601/test_sublibrary.git"],
+
+      "labels": [
+        "dependencies",
+        "internal-lib",
+        "test-sublibrary",
+        "weekly-update"
+      ]
+    }
+  ],
+
   "regexManagers": [
     {
       "fileMatch": ["^pyproject\\.toml$"],

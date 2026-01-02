@@ -13,11 +13,14 @@
       "matchPackageNames": [
         "https://github.com/yuliabarabash2601/test_sublibrary.git"
       ],
+
+      "schedule": ["*/2 * * * *"],
+
       "labels": [
         "dependencies",
         "internal-lib",
         "test-sublibrary",
-        "weekly-update"
+        "high-frequency"
       ]
     }
   ],

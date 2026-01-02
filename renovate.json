@@ -1,19 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
 
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
 
   "timezone": "Europe/Berlin",
 
   "enabledManagers": [],
 
-   "packageRules": [
+  "packageRules": [
     {
       "matchDatasources": ["git-tags"],
-      "matchPackageNames": ["https://github.com/yuliabarabash2601/test_sublibrary.git"],
-
+      "matchPackageNames": [
+        "https://github.com/yuliabarabash2601/test_sublibrary.git"
+      ],
       "labels": [
         "dependencies",
         "internal-lib",
@@ -23,24 +22,15 @@
     }
   ],
 
+
   "regexManagers": [
     {
       "fileMatch": ["^pyproject\\.toml$"],
-
       "matchStrings": [
         "test-sublibrary\\s*=\\s*\\{[^}]*tag\\s*=\\s*\"(?<currentValue>v\\d+\\.\\d+\\.\\d+)\""
       ],
-
       "datasourceTemplate": "git-tags",
-
       "depNameTemplate": "https://github.com/yuliabarabash2601/test_sublibrary.git",
-      "labels": [
-        "dependencies",
-        "internal-lib",
-        "test-sublibrary",
-        "weekly-update"
-      ],
-
       "versioningTemplate": "semver"
     }
   ]

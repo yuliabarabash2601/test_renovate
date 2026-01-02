@@ -8,8 +8,7 @@
   "packageRules": [
     {
       "matchManagers": ["poetry"],
-      "groupName": "poetry dependencies",
-      "automerge": false
+      "matchPackageNames": "pytest"
     }
   ]
 }

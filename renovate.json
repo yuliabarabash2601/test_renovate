@@ -7,8 +7,13 @@
 
   "packageRules": [
     {
+      "matchManagers": ["poetry"]
+    },
+    {
       "matchManagers": ["poetry"],
-      "matchPackageNames": "pytest"
+      "matchDatasources": ["git-tags"],
+      "matchPackageNames": ["test-sublibrary"],
+      "versioning": "semver"
     }
   ]
 }

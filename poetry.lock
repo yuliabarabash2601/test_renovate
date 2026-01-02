@@ -237,6 +237,25 @@ pygments = ">=2.7.2"
 dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "requests", "setuptools", "xmlschema"]
 
 [[package]]
+name = "test-sublibrary"
+version = "0.1.0"
+description = "Shared utility sublibrary"
+optional = false
+python-versions = "^3.10"
+groups = ["main"]
+files = []
+develop = false
+
+[package.dependencies]
+pydantic = "^2.6.0"
+
+[package.source]
+type = "git"
+url = "ssh://git@github.com/yuliabarabash2601/test_sublibrary.git"
+reference = "v1.0.0"
+resolved_reference = "ab2c3fefb6913faccc63b57566779e74f21770d3"
+
+[[package]]
 name = "typing-extensions"
 version = "4.15.0"
 description = "Backported and Experimental Type Hints for Python 3.9+"
@@ -250,5 +269,5 @@ files = [
 
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.12"
-content-hash = "56adcecafdc2ec8782ba81245370256a5b15562d4a630236760eb8cc9fae6749"
+python-versions = "^3.12"
+content-hash = "8e9f4ccc25e7bd57ae755e8e6b605072624b9632c207f163a577fe5d4afc3459"

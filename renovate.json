@@ -13,7 +13,8 @@
       "matchManagers": ["poetry"],
       "matchDatasources": ["git-tags"],
       "matchPackageNames": ["test-sublibrary"],
-      "versioning": "semver"
+      "versioning": "semver",
+      "rangeStrategy": "pin"
     }
   ]
 }

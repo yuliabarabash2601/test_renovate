@@ -11,7 +11,7 @@
     {
       "matchDatasources": ["git-tags"],
       "matchPackageNames": [
-        "https://github.com/yuliabarabash2601/test_sublibrary.git"
+        "test_sublibrary"
       ],
 
      "schedule":["* 5-10 * * *"],

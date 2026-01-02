@@ -10,7 +10,7 @@ packages = [
 python = "^3.12"
 pydantic = "==2.10.1"
 pytest = "==9.0.0"
-test-sublibrary = { git = "git@github.com:yuliabarabash2601/test_sublibrary.git", tag = "v1.0.0" }
+test-sublibrary = { git = "https://github.com/yuliabarabash2601/test_sublibrary.git", tag = "v1.0.0" }
 
 
 

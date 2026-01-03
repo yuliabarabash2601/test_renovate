@@ -251,9 +251,9 @@ pydantic = "^2.6.0"
 
 [package.source]
 type = "git"
-url = "ssh://git@github.com/yuliabarabash2601/test_sublibrary.git"
-reference = "v1.0.0"
-resolved_reference = "ab2c3fefb6913faccc63b57566779e74f21770d3"
+url = "https://github.com/yuliabarabash2601/test_sublibrary.git"
+reference = "v1.0.1"
+resolved_reference = "44cd7cda5f2e1701dc102c6cf153f791831fd859"
 
 [[package]]
 name = "typing-extensions"
@@ -270,4 +270,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "8e9f4ccc25e7bd57ae755e8e6b605072624b9632c207f163a577fe5d4afc3459"
+content-hash = "525720dd254f123da1d73772b7db454d86d5c7095a0ff45c9346f36dc5686ea2"
